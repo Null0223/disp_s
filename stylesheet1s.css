@@ -1,6 +1,6 @@
 body {
-  font-family: "Georgia, serif;";
-  font-size: 16px;
+  font-family:"ヒラギノ角ゴ ProN",sans-serif;
+  font-size: 10px;
   height: 100%;
   width: 100%;
   margin: 0 ;
@@ -16,7 +16,6 @@ body {
 
 }
 
-@media screen and (min-width:300px) and ( max-width:1300px) {
 
 li {
   list-style: none;
@@ -24,7 +23,7 @@ li {
 
 .header {
   background-color: #d0ecff;
-  color: rgb(12, 24, 29);
+  color: rgb(24, 45, 73);
   height: 120px;
   width: 100%;
   position: fixed; /* ウィンドウを基準に画面に固定 */
@@ -34,62 +33,63 @@ li {
 }
 
 .header-logo {
+  color: rgb(24, 45, 73);
   float: left;
   font-size: 50px;
   font-weight: bold;
-  padding-top: 20px;
-  padding-left: 25px;
+  padding-top: 25px;
+  padding-left: 30px;
   padding-right: 25px;
-  
+  height: auto;
+  max-width: 100%;
 }
 
 .header-list li {
-  float: right;
-  font-size: 1.2em;
-  display: inline;
-  border: solid 0px #ccc;
-  padding-top: 15px;
-  padding-right: 25px;
-}
-
-.main {
+  font-size: 25px;
+  display: inline-block;
+  color: rgb(24, 45, 73);
+  padding-top: 65px;
+  padding-right: 20px;
+  padding-left: 20px;
+  height: auto;
   max-width: 100%;
-  padding-top: 150px;
-  padding-bottom: 50px;
-  height: 1600px;
-  
+  }
 
-}
+  .main {
+    max-width: 100%;
+    height: 1600px;
+  }
 
 .main p {
-  font-size: 1.1em;
+  font-size: 12px;
   padding-left: 25px;
   padding-top: 25px;
 }
 
 h4 {
   position: absolute;
-  font-size: 2em;
+  font-size: 20px;
   padding-left: 30px;
-  padding-top: 4em;
+  padding-top: 40px;
 
 }
 
 
 .copy-container p {
   position: absolute;
-  font-size: 1.2em;
+  font-family: "ヒラギノ丸ゴ ProN";
+  font-size: 12px;
   float: left;
   color: #12204d;
   line-height: 1.7;
   padding-left: 30px;
-  padding-top: 4em;
-  padding-bottom: 6em;
+  padding-top: 40px;
+  padding-bottom: 60px;
 }
 
 .contents-item img {
-  max-width: 100%;
-  height: auto;
+  width: 50%;
+  height: 50%;
   float: right;
   padding-top: 300px;
   padding-bottom: 200px;
@@ -138,26 +138,34 @@ h4 {
 
 .footer p {
   display: block;
-  padding: 2em;
+  padding-top: 20px;
+  padding-left: 25px;
   width: 80%;
   font-size: 12px;
   color: rgb(255, 255, 255);
   border-top: 1px solid rgb(255, 255, 255);
+}
+
+.header-list a {
+  color: rgb(24, 45, 73);
+  border-bottom: solid 2px rgb(12, 24, 29);
   
 }
 
 a {
-  color: #0a122b;
+  color: rgb(24, 45, 73);
   text-decoration: none;
 }
 a:hover{
-  color: #0a122b;
+  color: rgb(24, 45, 73);
   text-decoration: none;
   font-weight: bold;
 }
-
-
+li {
+  text-align: -webkit-match-parent;
 }
+
+
 
 
     
