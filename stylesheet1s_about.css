@@ -1,0 +1,296 @@
+body {
+  font-family: "Georgia, serif;";
+  font-size: 16px;
+  height: 100%;
+  width: 100%;
+  margin: 0 ;
+  letter-spacing: 0px;
+  line-height: 1;
+  color: #0a122b;
+  background-color: #ffffff;
+  background-image: url("https://github.com/Null0223/demo10_24/blob/main/%E9%9B%AA%E3%81%AE%E7%B5%90%E6%99%B6.png?raw=true");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+
+  
+
+}
+
+@media screen and (min-width:1024px) {
+li {
+  list-style: none;
+  
+}
+
+.header {
+  background-color: #d0ecff;
+  color: rgb(12, 24, 29);
+  height: 120px;
+  width: 100%;
+  position: fixed; /* ウィンドウを基準に画面に固定 */
+  top: 0; /* 上下の固定位置を上から0pxにする */
+  left: 0; /* 左右の固定位置を左から0pxにする */
+  
+}
+
+.header-logo {
+  float: left;
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.header-list li {
+float: right;
+font-size: 1.2em;
+display: inline;
+border: solid 0px #ccc;
+padding-top: 15px;
+padding-right: 25px;
+}
+
+.main {
+  max-width: 100%;
+  padding-top: 150px;
+  padding-bottom: 50px;
+  height: 1600px;
+  
+
+}
+
+
+
+.copy-container  {
+  float: left;
+  font-size: 20px;
+  color: #12204d;
+  line-height: 1.7;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 4em;
+  padding-bottom: 8em;
+}
+
+.contents-item img {
+  
+  padding-bottom: 3em;
+  padding-right: 25px;
+  padding-left: 25px;
+  
+  
+}
+
+
+
+.footer {
+  background-color: #406883;
+  color: #fff;
+  height: 140px;
+  width: 100%;
+  position: fixed; /* ウィンドウを基準に画面に固定 */
+  bottom: 0; /* 上下の固定位置を下から0pxにする */
+  left: 0; /* 左右の固定位置を左から0pxにする */
+  
+}
+
+
+
+.footer-logo {
+  float: left;
+  font-size: 35px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #fff;
+  
+}
+
+
+
+.footer-list li {
+  display: inline-block;
+  margin: 3px;
+  max-width: 100%;
+  height: auto;
+  border: solid 0px #ccc;
+  
+  
+} 
+
+.footer p {
+  display: block;
+  padding: 2em;
+  width: 80%;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  border-top: 1px solid rgb(255, 255, 255);
+  
+}
+
+a {
+  color: #0a122b;
+  text-decoration: none;
+}
+a:hover{
+  color: #0a122b;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+}
+
+
+
+
+
+
+@media screen and (min-width:300px) and ( max-width:1300px) {
+
+  body {
+    font-family: "Georgia, serif;";
+    font-size: 16px;
+    height: 100%;
+    width: 100%;
+    margin: 0 ;
+    letter-spacing: 0px;
+    line-height: 1;
+    color: #0a122b;
+    background-color: #ffffff;
+    background-image: url("https://github.com/Null0223/demo10_24/blob/main/%E9%9B%AA%E3%81%AE%E7%B5%90%E6%99%B6.png?raw=true");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+  }
+
+  li {
+    list-style: none;
+    
+  }
+  
+  .header {
+    background-color: #d0ecff;
+    color: rgb(12, 24, 29);
+    height: 120px;
+    width: 100%;
+    position: absolute;
+    position: fixed; /* ウィンドウを基準に画面に固定 */
+    z-index: 30;
+    top: 0; /* 上下の固定位置を上から0pxにする */
+    left: 0; /* 左右の固定位置を左から0pxにする */
+  }
+  .header-logo {
+    float: left;
+    position: absolute;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  
+  .header-list ul {
+  display: inline-block;
+  font-size: 1.2em;
+  margin: 3px;
+  max-width: 100%;
+  height: auto;
+  border: solid 0px #ccc;
+  }
+ 
+
+  .main {
+    max-width: 100%;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    height: 2000px;
+    
+  
+  }
+
+  .copy-container  {
+    font-size: 20px;
+    color: #12204d;
+    line-height: 1.7;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 4em;
+    padding-bottom: 8em;
+  }
+  
+  .contents-item img {
+    
+    padding-bottom: 3em;
+    padding-right: 25px;
+    padding-left: 25px;
+    
+  }
+
+  
+  .footer {
+    z-index: 20;
+    background-color: #406883;
+    color: #fff;
+    height: 140px;
+    width: 100%;
+    position: fixed; /* ウィンドウを基準に画面に固定 */
+    bottom: 0; /* 上下の固定位置を下から0pxにする */
+    left: 0; /* 左右の固定位置を左から0pxにする */
+    
+  }
+  
+
+
+.footer-logo {
+  float: left;
+  font-size: 35px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #fff;
+  
+}
+
+
+
+.footer-list li {
+  display: inline-block;
+  margin: 3px;
+  max-width: 100%;
+  height: auto;
+  border: solid 0px #ccc;
+  
+  
+} 
+
+.footer p {
+  display: block;
+  padding: 2em;
+  width: 80%;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  border-top: 1px solid rgb(255, 255, 255);
+}
+
+a {
+  color: #0a122b;
+  text-decoration: none;
+  }
+ a:hover{
+  color: #0a122b;
+  text-decoration: none;
+  font-weight: bold;
+ }
+
+
+ li {
+    text-align: -webkit-match-parent;
+ }
+}
