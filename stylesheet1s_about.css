@@ -14,10 +14,13 @@ body {
   background-position: center;
   background-size: cover;
 
+  
+
 }
 
 li {
   list-style: none;
+  
 }
 
 .header {
@@ -60,7 +63,7 @@ padding-right: 25px;
 
 
 
-.copy-container p {
+.copy-container  {
   font-size: 20px;
   color: #12204d;
   line-height: 1.7;
@@ -86,7 +89,6 @@ padding-right: 25px;
   color: #fff;
   height: 140px;
   width: 100%;
-  
   position: fixed; /* ウィンドウを基準に画面に固定 */
   bottom: 0; /* 上下の固定位置を下から0pxにする */
   left: 0; /* 左右の固定位置を左から0pxにする */
@@ -106,34 +108,26 @@ padding-right: 25px;
   
 }
 
-.footer p {
-  position: fixed;
-  padding: 100px 25% 2em 25%;
-  font-size: 12px;
-  color: rgb(255, 255, 255);
-
-  
-  
-  
-
-  
- }
-
 
 
 .footer-list li {
-  float: top;
-  float: right;
-  display: inline-table;
-  margin: 5px;
+  display: inline-block;
+  margin: 3px;
   max-width: 100%;
   height: auto;
   border: solid 0px #ccc;
   
   
 } 
-.footer-list ul {
-padding-right: 25px;
+
+.footer p {
+  display: block;
+  padding: 2em;
+  width: 80%;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  border-top: 1px solid rgb(255, 255, 255);
+  
 }
 
 a {
@@ -147,7 +141,63 @@ a:hover{
 }
 
 
+
+
+
+
+@media screen and (min-width:300px) and ( max-width:1200px) {
+  .header {
+    background-color: #d0ecff;
+    color: rgb(12, 24, 29);
+    height: 120px;
+    width: 100%;
+    position: absolute;
+    position: fixed; /* ウィンドウを基準に画面に固定 */
+    z-index: 30;
+    top: 0; /* 上下の固定位置を上から0pxにする */
+    left: 0; /* 左右の固定位置を左から0pxにする */
+  }
+
+
+  .main {
+    display: block;
+    text-align: center;
+    max-width: 100%;
+    padding-top: 150px;
+    height: 2000px;
+  }
+  
+  .contents {
+  z-index: 10;
+  position: relative;
+  
+  }
+
+ 
+  
+  div.copy-container  {
+  display: block;
+  margin: 0 auto;
+  }
+  
+  
+
+  
+  .footer {
+    z-index: 20;
+    background-color: #406883;
+    color: #fff;
+    height: 140px;
+    width: 100%;
+    position: fixed; /* ウィンドウを基準に画面に固定 */
+    bottom: 0; /* 上下の固定位置を下から0pxにする */
+    left: 0; /* 左右の固定位置を左から0pxにする */
     
+  }
+    
+  }
 
-
+  li {
+    text-align: -webkit-match-parent;
+  }
 
