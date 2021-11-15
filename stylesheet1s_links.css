@@ -63,15 +63,10 @@ body {
     height: 1600px;
   }
 
-  .main p {
-    font-size: 12px;
-    color: #12204d;
-    padding-left: 25px;
-    padding-top: 25px;
-  }
+
 
   .contents p {
-    z-index: 20;
+    z-index: 10;
     position: absolute;
     font-family: "ヒラギノ丸ゴ ProN";
     font-size: 12px;
@@ -84,7 +79,7 @@ body {
   }
 
  .copy-container ul {
-    z-index: 10;
+    z-index: 20;
     position: absolute;
     font-family: "ヒラギノ丸ゴ ProN";
     font-size: 20px;
@@ -92,8 +87,7 @@ body {
     color: #12204d;
     line-height: 1.7;
     padding-left: 30px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    
  }
 
 
@@ -103,8 +97,8 @@ body {
   font-size: 20px;
   color: #12204d;
   padding-left: 30px;
-  padding-top: 30px;
-
+  padding-top: 60px;
+  padding-bottom: 30px;
 }
   
   
