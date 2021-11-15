@@ -65,7 +65,7 @@ body {
 
   h3 {
     
-    font-size: 30px;
+    font-size: 25px;
     color: #12204d;
     padding-left: 30px;
     padding-top: 60px;
@@ -81,16 +81,16 @@ body {
     color: #12204d;
     line-height: 1.7;
     padding-left: 30px;
-    padding-top: 70px;
+    padding-top: 10px;
 
   }
 
- .copy-container ul {
+ .copy-container li {
     font-family: "ヒラギノ丸ゴ ProN";
     font-size: 20px;
     float: left;
     color: #12204d;
-    line-height: 2;
+    line-height: 1.5;
     padding-left: 30px;
     
  }
@@ -169,5 +169,3 @@ body {
   li {
     text-align: -webkit-match-parent;
   }
-  
-  
