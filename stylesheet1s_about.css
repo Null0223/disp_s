@@ -9,7 +9,7 @@ body {
   color: rgb(24, 45, 73);
   background-color: #ffffff;
   background-image: url("https://github.com/Null0223/demo10_24/blob/main/%E9%9B%AA%E3%81%AE%E7%B5%90%E6%99%B6.png?raw=true");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-attachment: scroll;
   background-position: center;
   background-size: cover;
@@ -38,25 +38,27 @@ li {
   color: rgb(24, 45, 73);
   float: left;
   font-size: 50px;
+  padding: 10px 0px 0px 30px;
   font-weight: bold;
-  padding-top: 25px;
-  padding-left: 30px;
-  padding-right: 25px;
   height: auto;
   max-width: 100%;
 }
 
 .header-list li {
-
-font-size: 25px;
-display: inline-block;
-color: rgb(24, 45, 73);
-padding-top: 65px;
-padding-right: 20px;
-padding-left: 20px;
-height: auto;
-max-width: 100%;
-}
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+  color: rgb(24, 45, 73);
+  padding-right: 10px;
+  padding-left: 10px;
+  height: auto;
+  max-width: 100%;
+  }
+  .header-list ul {
+    float: right;
+    padding-inline: 30px;
+    padding-block: 15px;
+  }
 
 .main {
   max-width: 100%;
@@ -66,31 +68,31 @@ max-width: 100%;
 
 
 .copy-container  {
-  text-align: center;
   color: rgb(24, 45, 73);
   padding-left: 40px;
-  padding-top: 120px;
+  padding-top: 80px;
   padding-bottom: 20px;
 }
 
 .copy-container p {
+  z-index: 20;
+  position: absolute;
   float: left;
   font-family: "ヒラギノ丸ゴ ProN";
-  text-align: center;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   color: rgb(24, 45, 73);
-  line-height: 1.7;
+  line-height: 1.6;
  
 
 }
 
 .contents-item img {
+  z-index: 10;
   float: right;
-  padding-top: 13px;
-  padding-right: 30px;
-  width: 40%;
-  height: 100%;
+  padding: 20px 30px 0px 10px;
+  max-width: 50%;
+  height: auto;
   
   
 }
