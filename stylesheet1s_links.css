@@ -38,14 +38,14 @@ body {
     color: rgb(24, 45, 73);
     float: left;
     font-size: 50px;
-    padding: 10px 0px 0px 30px;
+    padding: 30px 0px 0px 30px;
     font-weight: bold;
     height: auto;
     max-width: 100%;
   }
   
   .header-list li {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     display: inline-block;
     color: rgb(24, 45, 73);
@@ -57,7 +57,7 @@ body {
     .header-list ul {
       float: right;
       padding-inline: 30px;
-      padding-block: 15px;
+      padding-block: 70px;
     }
   
   .main {
