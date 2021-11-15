@@ -77,11 +77,11 @@ h4 {
 }
 
 
-.link p {
+.copy-container p {
   z-index: 10;
   position: absolute;
   font-family: "ヒラギノ丸ゴ ProN";
-  font-size: 15px;
+  font-size: 12px;
   float: left;
   color: #12204d;
   line-height: 1.7;
