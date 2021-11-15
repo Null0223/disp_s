@@ -63,10 +63,18 @@ body {
     height: 1600px;
   }
 
+  h3 {
+    position: absolute;
+    font-size: 20px;
+    color: #12204d;
+    padding-left: 30px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
 
 
   .contents p {
-    z-index: 10;
+    
     position: absolute;
     font-family: "ヒラギノ丸ゴ ProN";
     font-size: 12px;
@@ -79,27 +87,19 @@ body {
   }
 
  .copy-container ul {
-    z-index: 20;
-    position: absolute;
+    position: relative;
     font-family: "ヒラギノ丸ゴ ProN";
     font-size: 20px;
     float: left;
     color: #12204d;
-    line-height: 1.7;
+    line-height: 30;
     padding-left: 30px;
-    
+    padding-top: 40px;
+    padding-bottom: 60px;
  }
 
 
-  h3 {
-  z-index: 30;
-  position: absolute;
-  font-size: 20px;
-  color: #12204d;
-  padding-left: 30px;
-  padding-top: 60px;
-  padding-bottom: 30px;
-}
+
   
   
   
