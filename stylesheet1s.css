@@ -22,7 +22,7 @@ li {
 }
 
 .header {
-  z-index: 30;
+  z-index: 40;
   background-color: #d0ecff;
   color: rgb(24, 45, 73);
   height: 120px;
@@ -62,12 +62,12 @@ li {
   }
 
 .main p {
-  font-size: 12px;
+  font-size: 20px;
   padding-left: 30px;
   padding-top: 50px;
 }
 
-h4 {
+h3 {
   z-index: 20;
   position: absolute;
   font-size: 20px;
@@ -86,17 +86,18 @@ h4 {
   color: #12204d;
   line-height: 1.7;
   padding-left: 30px;
-  padding-top: 40px;
-  padding-bottom: 60px;
+  padding-top: 60px;
+  padding-bottom: 0px;
 }
 
 .contents-item img {
+  z-index: 30;
   width: 50%;
   height: 50%;
   float: right;
-  padding-top: 50px;
+  padding-top: 20px;
   padding-bottom: 200px;
-  padding-left: 25px;
+  padding-left: 30px;
   
   
 }
