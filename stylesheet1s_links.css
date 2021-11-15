@@ -64,33 +64,29 @@ body {
   }
 
   h3 {
-    
     font-size: 25px;
     color: #12204d;
     padding-left: 30px;
     padding-top: 60px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
   }
 
 
   .contents p {
-    
     font-family: "ヒラギノ丸ゴ ProN";
     font-size: 20px;
     float: left;
     color: #12204d;
     line-height: 1.7;
     padding-left: 30px;
-    padding-top: 10px;
 
   }
 
- .copy-container li {
+ .copy-container li  a {
     font-family: "ヒラギノ丸ゴ ProN";
     font-size: 20px;
     float: left;
     color: #12204d;
-    line-height: 1.5;
     padding-left: 30px;
     
  }
